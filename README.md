@@ -27,7 +27,7 @@ order-all
 领域层包含聚合、有状态的实体、值对象、领域服务以及各种外部依赖的接口类（Repository、MQ、外部访问接口）
 未来值对象可能会单独抽成一个模块供其他模块复用。
 - app应用层:活动层的主要职责是负责对用例的流程编排，这一层也是很薄的一层。活动层所暴露出的对象为贫血模型，仅仅包含数据，不包含行为。
-  活动层依赖领域层Domian的sdk。不依赖任何框架。
+  活动层依赖领域层Domain的sdk。不依赖任何框架。
 - infrastructures基础设施层：基础设施层负责对mq、repository、第三方服务的具体实现，如RocketMQ/Kafka、mybatis/hibernate等具体实现。这一层的作用主要是将业务与技术实现相分离，屏蔽底层实现细节。使我们的软件更“软”
   基础设施层也可以很细粒度的拆分出多个基础设施，如DataSource/EventStore/LocalFileSystem/AsyncMessaging/OtherServices。
 - web层：web这一层很薄，它仅仅只包含controller代码，这一层不应包含任何业务逻辑。
