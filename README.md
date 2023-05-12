@@ -85,7 +85,6 @@ order-all
 - https://www.ryu.xin/2018/04/08/domain/
 - https://mp.weixin.qq.com/s/MU1rqpQ1aA1p7OtXqVVwxQ
 - https://developer.aliyun.com/article/861364?spm=a2c6h.12873639.article-detail.65.59a562b4UHZxw9
-- 《手把手教你落地 DDD》极客时间
 - 《领域驱动设计：软件核心复杂性应对之道》
 - 《实现领域驱动设计》
 - 《架构整洁之道》
